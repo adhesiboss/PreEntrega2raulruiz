@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orangered;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.cabecera {
+  position: sticky;
+  top: 0px;
+}
+
+.cabecera img {
+  padding: 20px;
+}
+
+nav {
+  position: relative;
+}
+
+.menu {
+  font-size: 2rem;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+  font-size: 2rem;
+}
+
+.background_image {
+  background-image: url("/assets/images/image1.jpg");
+  height: 100vh;
+}
+
+.carousel-item {
+  object-fit: cover;
+  max-height: fit-content;
+}
+
+/*# sourceMappingURL=styles.css.map */
